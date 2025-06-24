@@ -1,0 +1,9 @@
+def first_unique_char(s: str) -> str:
+    for char in s:
+        if s.count(char) == 1:
+            return char  
+    return "None"  
+
+if __name__ == "__main__":
+    s = "swiss"
+    print(first_unique_char(s)) 
