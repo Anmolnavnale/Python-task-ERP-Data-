@@ -3,7 +3,6 @@ def find_kth_largest(nums: list, k: int) -> int:
     nums.sort(reverse=True)
     return nums[k - 1]
 
-# Example usage
 if __name__ == "__main__":
     nums = [3, 2, 1, 5, 6, 4]
     k = 2
